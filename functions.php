@@ -6,4 +6,9 @@ function load_file(){
 
 add_action( 'wp_enqueue_scripts', 'load_file');
 
- ?>
+
+register_nav_menus( array(
+	'main_menu' => 'Menu Utama'
+))
+
+?>
